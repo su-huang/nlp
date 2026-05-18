@@ -1,7 +1,7 @@
 .DS_Store
 nlp.venv/
 .ipynb_checkpoints/
-__pycache__/
+*/__pycache__/
 *.pyc
 *.pyo
 .DS_Store
