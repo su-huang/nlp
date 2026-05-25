@@ -6,6 +6,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import TweetTokenizer
 
+
 def process_tweet(tweet):
     """Process tweet function.
     Input:
@@ -39,6 +40,7 @@ def process_tweet(tweet):
             tweets_clean.append(stem_word)
 
     return tweets_clean
+
 
 def build_freqs(tweets, ys):
     """Build frequencies.
